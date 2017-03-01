@@ -1,34 +1,27 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: black
-    background-color: blue;
+	color: #333;
+	font-family:helvetica,arial,sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:1.5;
 }
-
-
+section {
+	padding:5em 0;
+}
 h1 {
     color: Red;
-    front-size: 26px;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
-
 h2 {
-	color: blue
-}
-
-h1, {
-	font-family: "Comic Sans", monospace;
-}
-
-h3 {
 	font-style: italic;
-	font-weight: bold;
 }
 
 h1, h2, h3, h4 {
 	text-align: center;
-	img src: center;
 }
-
-#4points {
-	text-align: center;
+ul {
+	padding-left:1.25em;
 }
 
