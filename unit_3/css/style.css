@@ -1,0 +1,34 @@
+body {
+	color: black
+    background-color: blue;
+}
+
+
+h1 {
+    color: Red;
+    front-size: 26px;
+    text-transform: uppercase;
+}
+
+h2 {
+	color: blue
+}
+
+h1, {
+	font-family: "Comic Sans", monospace;
+}
+
+h3 {
+	font-style: italic;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+	img src: center;
+}
+
+#4points {
+	text-align: center;
+}
+
