@@ -17,10 +17,7 @@ nav a {
 	letter-spacing:1px;
 	font: ProximaNovaSemibold;
 	padding:1em;
-}
-
-nav a:hover {
-	color: #dd0000;
+	
 }
 
 #hero {
@@ -34,7 +31,7 @@ nav a:hover {
 	background-color: white;
 	color: blue;
 	text-align: center;
-	font-size: 16px;
+	font-size: 10px;
 	padding: 5px;
 }
 
@@ -43,21 +40,8 @@ nav a:hover {
 	height 15px;		
 }
 
-#intro {
-	font-size: 20px;
-	text-align: center;
-}
-
 #process {
 	padding: 10px;
-}
-
-#services {
-	
-}
-
-#events {
-	
 }
 
 img {
@@ -144,7 +128,6 @@ footer {
 	padding: 20px
 	font-variant: small caps;
 	font-family: "courier new", sans-serif;
-	clear: both;
 }
 
 div {
@@ -166,11 +149,3 @@ div {
 #wrapper {
 	width: 1200px;
 }
-
-span {
-	color: red;
-	font-size: 18px;
-}
-
-
-
