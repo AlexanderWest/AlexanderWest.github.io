@@ -1,32 +1,26 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-.site-header__wrapper {
-	background-color: #303030;
-	height: 65px;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    max-width: 52em;
-    padding: 1em;
+header {
+	background-color:#303030;
+	padding: 15px;
+}
+
+nav {
+	text-align: right;
 }
 
 nav a {
-	font: 14px ProximaNovaSemibold,sans-serif;;
+	font-size: 15px;
+	font-weight: bold;
 	margin-right: 25px;
 	color: white;
 	letter-spacing:1px;
-	padding: 20px;
-	float: right;
+	font: ProximaNovaSemibold;
+	padding:1em;
+}
+
+nav a:hover {
+	color: #dd0000;
 }
 
 #hero {
@@ -39,15 +33,13 @@ nav a {
 #gifts {
 	background-color: white;
 	color: blue;
-	font-size: 14px;
-	font-family: ProximaNovaSemibold,ProximaNova,Arial,Sans-serif;
-	height: 30px;
+	font-size: 16px;
+	padding: 5px;
 }
 
 
 #intro {
-	font-size: 16px;
-	font-style: italic
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -55,12 +47,22 @@ nav a {
 	padding: 10px;
 }
 
+.services> h2 {
+	margin: 5em;
+}
 
 .services {
 	width 480px;
 	margin:30px;
-	color: black;
+	float: left;
 }
+
+
+.clearfix {
+    overflow: auto;
+}
+
+
 
 img {
 	display: block;
@@ -89,10 +91,14 @@ body {
     display: inline-block;
     font-size: 20px;
 }
+
+main {
+	padding 20px;
+}
     
 
 h2 {
-	color: black;
+	color: blue;
 	text-decoration: none;
 	text-align: center;
 }
@@ -126,20 +132,47 @@ p {
 }
 
 
+
 .video {
 	align:center;
+
 }
 
+#contact {
+	backround-color: white;
 
-div content. {
-	width: 300px;
-	height: 300px
-	border: 5px;
-	margin: 40px;
 }
 
+footer {
+	background-color:white;
+	padding: 20px
+	font-variant: small caps;
+	font-family: "courier new", sans-serif;
+	clear: both;
+}
 
+div {
+	display: block;
+}
 
+#footer {
+	float: left;
+}
+
+#wrapper {
+	width: 1200px;
+}
+
+.wrapper {
+	background-color: grey;
+	width: 1680px;
+	margin: auto;
+}
+
+span {
+	color: red;
+	font-size: 18px;
+}
 
 
 
